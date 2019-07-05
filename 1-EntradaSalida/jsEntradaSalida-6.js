@@ -9,7 +9,7 @@ function sumar()
     numeroUno = document.getElementById("numeroUno").value;
     numeroUno = parseInt(numeroUno);
 
-    numeroDos = document.getElementById(numeroDos).value;
+    numeroDos = document.getElementById("numeroDos").value;
     numeroDos = parseInt(numeroDos);
 
     alert("La suma es " + (numeroUno + numeroDos));
